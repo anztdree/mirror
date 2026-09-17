@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Stealth launcher icon: minimal blue circle, looks like a system icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Outer circle (system-like) -->
+    <path
+        android:fillColor="#1880F0"
+        android:pathData="M24,4 C13,4 4,13 4,24 C4,35 13,44 24,44 C35,44 44,35 44,24 C44,13 35,4 24,4 Z" />
+
+    <!-- Inner small white dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,18 C20.7,18 18,20.7 18,24 C18,27.3 20.7,30 24,30 C27.3,30 30,27.3 30,24 C30,20.7 27.3,18 24,18 Z" />
+</vector>

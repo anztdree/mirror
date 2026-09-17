@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#111418">
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KODE PAIRING"
+        android:textColor="#888"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="------"
+        android:textColor="#FFFFFF"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tekan Start untuk mulai"
+        android:textColor="#888"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="START"
+        android:textSize="16sp"
+        android:backgroundTint="#2D8CFF"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnRegenerate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="KODE BARU"
+        android:textSize="12sp"
+        android:backgroundTint="#444"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="STOP"
+        android:textSize="16sp"
+        android:backgroundTint="#FF4D4F"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

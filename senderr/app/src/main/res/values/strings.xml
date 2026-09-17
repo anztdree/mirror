@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Stealth label - shows up in launcher -->
+    <string name="app_name_stealth">System Service</string>
+    <string name="app_name_real">Screen Mirror Sender</string>
+</resources>
