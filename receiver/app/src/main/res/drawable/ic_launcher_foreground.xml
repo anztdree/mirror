@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Monitor icon for "screen mirror" -->
+    <path
+        android:fillColor="#2D8CFF"
+        android:pathData="M24,28 C20,28 16,32 16,36 L16,68 C16,72 20,76 24,76 L48,76 L48,82 L40,82 C38,82 36,84 36,86 C36,88 38,90 40,90 L68,90 C70,90 72,88 72,86 C72,84 70,82 68,82 L60,82 L60,76 L84,76 C88,76 92,72 92,68 L92,36 C92,32 88,28 84,28 Z M24,36 L84,36 L84,68 L24,68 Z" />
+
+    <!-- Small wave inside screen to suggest mirroring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,52 C34,46 38,58 42,52 C46,46 50,58 54,52 C58,46 62,58 66,52 C70,46 74,58 78,52 L78,60 L30,60 Z" />
+</vector>
